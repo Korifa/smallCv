@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang='ru'>
+    <head>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume</title>
+        <link href='styles/styles.css' type='text/css' rel='stylesheet' />
+    </head>
+    <body>
+        <header class='header'>
+            <div class='header__wrapper wrapper'>
+                <div class='header__item header-photo'>
+                    <picture>
+                        <source media="(min-width: 600px) and (max-width: 1000px)" srcset='' />
+                        <img class='header-photo__item' src='images/photo.jpg' alt='photo' />
+                    </picture>
+                </div>
+                <div class='header__item header-name'>
+                    <h3 class='header-name__item'>Vitaliy Pryshyvalko</h3>
+                </div>
+                <div class='header__item header-aside'>
+                    <p class='header-aside__item'>Job seeker</p>
+                </div>
+                <div class='header__button'>
+                    <button class='header__button-item button' type='button'>Contact</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class='about'>
+                <div class='header__wrapper wrapper'>
+                    <h2 class='expectations'>My expectations</h2>
+                        <div class='about-yandex yandex-school'>
+                            <input type='checkbox' class='about-yandex__item-input' id='first'/>
+                            <label for='first' class='about-yandex__item-label yandex-school-label'>
+                                <h3 class='about-yandex-headline'>Training</h3>
+                                <svg width='16' height='16' xmlns="http://www.w3.org/2000/svg" 
+                                viewBox='0 0 16 16' version='1.1' class='work-in-cm-svg'>
+                                    <style type='text/css'><![CDATA[
+                                        .path {
+                                        stroke: #0059D9;
+                                        stroke-width: 2;
+                                        transition: all 0.3s ease;
+                                        }
+                                    ]]></style>
+                                    <path id='school-label' class="path" d='M8,0 v16 M0,8 h16' />
+                                </svg>
+                            </label>
+                            <p class='about-yandex__item-describe yandex-school-describe'>To learn to work in team, to skilled hand at real projects, to know smth new</p>
+                        </div>
+                        <div class='about-yandex work-in-cm'>
+                                <input type='checkbox' class='about-yandex__item-input' id='second'/>
+                                <label for='second' class='about-yandex__item-label work-in-cm-label'>
+                                    <h3 class='work-in-cm-headline'>Work in company</h3>
+                                <svg width='16' height='16' xmlns="http://www.w3.org/2000/svg" 
+                                viewBox='0 0 16 16' version='1.1' class='work-in-cm-svg'>
+                                    <path id='work-in-cm-path' class="path" d='M8,0 v16 M0,8 h16' />
+                                </svg>
+                                </label>
+                                <p class='about-yandex__item-describe work-in-cm-describe'>I believe that all depending on context. Work in company is best way to improve skills </p>
+                         </div>
+                         <div class='about-yandex why-yd'>
+                                <input type='checkbox' class='about-yandex__item-input' id='third'/>
+                                <label for='third' class='about-yandex__item-label why-yd-label'>
+                                    <h3 class='why-yd-headline'>Why "comp. name"?</h3>
+                                    <svg width='16' height='16' xmlns="http://www.w3.org/2000/svg" 
+                                viewBox='0 0 16 16' version='1.1' class='work-in-cm-svg'>
+                                    <path id='why-yd-path' class="path" d='M8,0 v16 M0,8 h16' />
+                                </svg>
+                                </label>
+                                <p class='about-yandex__item-describe why-yd-describe'>To work shoulder to shoulder with professionals. </p>
+                         </div>
+                </div>
+            </section>
+            <section class='my-works'>
+                <div class='header__wrapper wrapper'>
+                    <h2 class='my-works__headline'>My works</h2>
+                    <div class='my-work__describe'>
+                        <p class='my-work__describe_item'>I have three projects. See them at github</p>
+                    </div>
+                    <h3 class='my-works__headline_items'>Artactive</h3>
+                    <a href='https://korifa.github.io/artactive/index2.html' target='_blank'  class='my-works__headline_link'>https://korifa.github.io/artactive/index2.html</a>
+                    <div class='my-works__slider'>
+                        <input type='radio' name='click' class='my-works__slider_click click-first' checked />
+                        <input type='radio' name='click' class='my-works__slider_click click-second' />
+                        <input type='radio' name='click' class='my-works__slider_click click-third' />
+                        <input type='radio' name='click' class='my-works__slider_click click-forth' />
+                        <div class='my-works__pictures'>
+                            <img id='first-pic' src='images/first.png' alt='pic' />
+                            <img id='second-pic' src='images/second.png' alt='pic' />
+                            <img id='third-pic' src='images/third.png' alt='pic' />
+                            <img id='forth-pic' src='images/forth.png' alt='pic' />
+                        </div>
+                    </div>
+                    <p class='text-slider'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Donec tristique congue purus. Mauris volutpat vulputate magna,
+                        eu venenatis enim commodo euismod. Orci varius natoque penatibus
+                        et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class='heade__wrapper wrapper'>
+                <h2 class='footer-headline'>Contacts info.</h2>
+                <div class='footer-link'>
+                    <a class='footer-link_item fb-link'href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" width="48px" height="48px">
+                        <g id="surface1">
+                        <style type='text/css'><![CDATA[
+                            circle:active {
+                                opacity: 0.7;
+                            }
+                        ]]></style>
+                        <circle style="fill:#395A99;" cx="24" cy="24" r="24"/>
+                        <path style=" fill:#FFFFFF; transform:translate(-5px,-2px);" d="M 34.367188 25 L 31 25 L 31 38 L 26 38 L 26 25 L 23 25 L 23 21 L 26 21 L 26 18.589844 C 26.003906 15.082031 27.460938 13 31.59375 13 L 35 13 L 35 17 L 32.714844 17 C 31.105469 17 31 17.601563 31 18.722656 L 31 21 L 35 21 Z "/>
+                        </g>
+                        </svg>
+                    </a>
+                    <a class='footer-link_item tw-link'href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" width="48px" height="48px">
+                        <g id="surface1">
+                        <circle style="fill:#2CA5E0;" cx="24" cy="24" r="24"/>
+                        <path style=" fill:#fff; transform: scale(0.6) translate(16px,16px);" d="M 42 12.429688 C 40.675781 13.015625 39.253906 13.40625 37.753906 13.589844 C 39.277344 12.683594 40.453125 11.238281 41.003906 9.53125 C 39.574219 10.371094 37.992188 10.984375 36.3125 11.308594 C 34.96875 9.882813 33.050781 9 30.925781 9 C 26.847656 9 23.539063 12.277344 23.539063 16.320313 C 23.539063 16.890625 23.605469 17.449219 23.730469 17.988281 C 17.59375 17.683594 12.148438 14.765625 8.507813 10.335938 C 7.867188 11.417969 7.507813 12.683594 7.507813 14.023438 C 7.507813 16.5625 8.808594 18.800781 10.792969 20.117188 C 9.582031 20.082031 8.441406 19.742188 7.445313 19.203125 C 7.445313 19.226563 7.445313 19.257813 7.445313 19.289063 C 7.445313 22.839844 9.992188 25.796875 13.367188 26.472656 C 12.75 26.640625 12.097656 26.734375 11.425781 26.734375 C 10.949219 26.734375 10.484375 26.679688 10.035156 26.597656 C 10.972656 29.5 13.699219 31.621094 16.933594 31.683594 C 14.402344 33.644531 11.21875 34.820313 7.757813 34.820313 C 7.160156 34.820313 6.574219 34.785156 5.996094 34.714844 C 9.269531 36.785156 13.152344 38 17.320313 38 C 30.90625 38 38.339844 26.84375 38.339844 17.164063 C 38.339844 16.847656 38.328125 16.53125 38.3125 16.222656 C 39.761719 15.195313 41.011719 13.90625 42 12.429688 "/>
+                        </g>
+                        </svg>
+                    </a>
+                    <a class='footer-link_item tel-link'href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve" width="48px" height="48px">
+                        <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24" y1="658" x2="24" y2="618.146" gradientTransform="matrix(1 0 0 -1 0 662)">
+                            <stop offset="0" style="stop-color:#42BCE8"/>
+                            <stop offset="1" style="stop-color:#23A7DC"/>
+                        </linearGradient>
+                        <circle style="fill:url(#SVGID_1_);" cx="24" cy="24" r="24"/>
+                        <path style="fill:#FFFFFF;" d="M34.176,14.811l-3.817,19.492c0,0-0.534,1.352-2.002,0.703l-8.809-6.84l-3.203-1.568l-5.392-1.838  c0,0-0.828-0.297-0.908-0.946c-0.08-0.649,0.934-1,0.934-1l21.436-8.516C32.414,14.297,34.176,13.513,34.176,14.811z"/>
+                        <path style="fill:#D2E5F1;" d="M18.87,34.083c0,0-0.257-0.024-0.578-1.052c-0.32-1.027-1.949-6.434-1.949-6.434L29.29,18.27  c0,0,0.747-0.46,0.721,0c0,0,0.133,0.081-0.267,0.46s-10.171,9.273-10.171,9.273"/>
+                        <path style="fill:#B5CFE4;" d="M22.925,30.788l-3.484,3.217c0,0-0.272,0.209-0.57,0.078l0.667-5.976"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer-text">
+                    I'm open for new projects. 
+                    I'm ready for training or work.
+                </p>
+                <form method='post' action='none' class='get_in_touch'>
+                    <p class='form_line'><input class='get_in_touch_text' type='text' name="name" placeholder="Your name" /></p>
+                    <p class='form_line'><input class='get_in_touch_email' type='email' name="email" placeholder="your email"/></p>
+                    <p><textarea class='get_in_touch_area' >Add mail
+                    </textarea></p>
+                    <p><button type="button" data='send' class='add_test_button button'>Add task</button></p>
+                    <button type="button" data='send' class='send_form_button button'>Send</button>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

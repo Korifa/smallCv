@@ -1,0 +1,19 @@
+<svg width='16' height='28.7' xmlns="http://www.w3.org/2000/svg" 
+viewBox='0 0 16 28.7' version='1.1' transform='translate(0,0)'>
+<style type='text/css'><![CDATA[
+    .group-items {
+    stroke: #0059D9;
+    stroke-width: 1;
+    }
+    .group-items:hover {
+     stroke: #000;
+    }
+]]></style>
+<g class='group-items'>
+    <line class='blue' x1='0' y1='8' x2='16' y2='8' />
+    <line class='blue' x1='8' y1='0' x2='8' y2='16' />
+    <line class='blue' x1='1.65' y1='16' x2='14.35' y2='28.7' />
+    <line class='blue' x1='14.35' y1='16' x2='1.65' y2='28.7' />
+</g>
+</svg>
+    
